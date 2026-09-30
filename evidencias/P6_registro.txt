@@ -1,0 +1,10 @@
+ log_connections 
+-----------------
+ off
+(1 row)
+
+ log_statement 
+---------------
+ none
+(1 row)
+

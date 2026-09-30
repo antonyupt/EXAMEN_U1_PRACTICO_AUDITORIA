@@ -1,0 +1,246 @@
+--
+-- PostgreSQL database dump · base core · COOPAC Santa Rosa
+-- Generado por respaldo.sh el 2025-11-12 02:00
+--
+
+SET client_encoding = 'UTF8';
+
+CREATE TABLE public.empleados (
+    documento character varying(8) NOT NULL,
+    nombre text,
+    area text,
+    fecha_ingreso date,
+    fecha_cese date
+);
+
+COPY public.empleados (documento, nombre, area, fecha_ingreso, fecha_cese) FROM stdin WITH (FORMAT csv);
+41032767,Trabajador 001,Cobranzas,2019-02-13,2024-02-12
+42585701,Trabajador 002,Créditos,2013-01-19,2018-09-10
+44436035,Trabajador 003,Administración,2021-11-27,2024-12-09
+49577287,Trabajador 004,Captaciones,2017-12-15,2024-10-07
+49981556,Trabajador 005,Cobranzas,2012-05-01,2015-12-18
+49969093,Trabajador 006,Sistemas,2024-08-19,
+44583788,Trabajador 007,Administración,2021-10-08,
+48628425,Trabajador 008,Sistemas,2015-01-19,2019-05-29
+44839015,Trabajador 009,Administración,2018-07-07,2023-06-20
+46121521,Trabajador 010,Riesgos,2021-06-27,2025-06-25
+43999767,Trabajador 011,Riesgos,2017-03-26,2022-12-13
+41094646,Trabajador 012,Operaciones,2024-07-23,
+44080115,Trabajador 013,Sistemas,2024-10-18,
+46503563,Trabajador 014,Sistemas,2017-01-05,2019-12-23
+49877080,Trabajador 015,Operaciones,2016-06-25,
+49080333,Trabajador 016,Sistemas,2023-03-15,
+49999752,Trabajador 017,Contabilidad,2014-10-08,
+42171896,Trabajador 018,Créditos,2016-02-27,
+44810275,Trabajador 019,Contabilidad,2016-04-16,
+41692161,Trabajador 020,Captaciones,2019-12-25,
+43606579,Trabajador 021,Riesgos,2023-09-08,
+46221864,Trabajador 022,Operaciones,2013-03-19,
+46108620,Trabajador 023,Riesgos,2015-11-24,
+43395132,Trabajador 024,Contabilidad,2022-04-01,
+43988016,Trabajador 025,Cobranzas,2013-07-28,
+46603524,Trabajador 026,Operaciones,2020-12-04,
+41271370,Trabajador 027,Captaciones,2024-06-12,
+43747278,Trabajador 028,Administración,2014-12-17,
+48885980,Trabajador 029,Operaciones,2015-01-08,
+46602126,Trabajador 030,Créditos,2019-07-07,
+45114170,Trabajador 031,Cobranzas,2022-09-21,
+49015856,Trabajador 032,Administración,2019-12-05,
+49254388,Trabajador 033,Contabilidad,2015-06-27,
+41196093,Trabajador 034,Administración,2020-12-22,
+42950431,Trabajador 035,Captaciones,2012-11-23,
+45302008,Trabajador 036,Sistemas,2020-02-27,
+41882562,Trabajador 037,Sistemas,2013-02-25,
+49943729,Trabajador 038,Cobranzas,2013-04-01,
+46605578,Trabajador 039,Captaciones,2020-10-18,
+46230716,Trabajador 040,Riesgos,2022-11-24,
+40471925,Trabajador 041,Operaciones,2013-01-07,
+42770712,Trabajador 042,Operaciones,2017-06-04,
+46861391,Trabajador 043,Contabilidad,2023-09-26,
+49636140,Trabajador 044,Contabilidad,2022-03-12,
+48835910,Trabajador 045,Créditos,2023-03-15,
+40874814,Trabajador 046,Captaciones,2024-04-26,
+46262812,Trabajador 047,Riesgos,2020-05-02,
+44758965,Trabajador 048,Operaciones,2019-01-11,
+41240719,Trabajador 049,Sistemas,2023-11-28,
+47023297,Trabajador 050,Cobranzas,2019-10-21,
+46755488,Trabajador 051,Sistemas,2021-05-13,
+43789213,Trabajador 052,Cobranzas,2017-11-23,
+45863362,Trabajador 053,Cobranzas,2017-03-07,
+42486768,Trabajador 054,Operaciones,2012-02-11,
+47406679,Trabajador 055,Contabilidad,2014-10-15,
+41429483,Trabajador 056,Créditos,2012-09-22,
+45779316,Trabajador 057,Administración,2024-10-01,
+40260743,Trabajador 058,Cobranzas,2012-11-23,
+44197613,Trabajador 059,Créditos,2020-05-24,
+45438530,Trabajador 060,Cobranzas,2017-08-19,
+41673013,Trabajador 061,Contabilidad,2023-02-26,
+48032832,Trabajador 062,Créditos,2023-03-06,
+45376823,Trabajador 063,Administración,2014-05-25,
+48124613,Trabajador 064,Contabilidad,2012-12-19,
+49174477,Trabajador 065,Contabilidad,2022-08-10,
+40566194,Trabajador 066,Contabilidad,2021-10-03,
+41497905,Trabajador 067,Sistemas,2019-03-10,
+43763536,Trabajador 068,Riesgos,2023-08-22,
+46897246,Trabajador 069,Administración,2016-04-12,
+41061077,Trabajador 070,Riesgos,2023-08-04,
+47862298,Trabajador 071,Administración,2015-09-01,
+42024209,Trabajador 072,Riesgos,2017-10-25,
+47450899,Trabajador 073,Administración,2023-01-12,
+44295995,Trabajador 074,Créditos,2013-10-23,
+43352852,Trabajador 075,Contabilidad,2018-09-25,
+41830323,Trabajador 076,Operaciones,2014-11-26,
+47825136,Trabajador 077,Riesgos,2023-07-11,
+40410989,Trabajador 078,Operaciones,2012-05-05,
+40061843,Trabajador 079,Créditos,2019-04-02,
+44462108,Trabajador 080,Contabilidad,2012-05-15,
+45198105,Trabajador 081,Riesgos,2012-03-24,
+43760342,Trabajador 082,Administración,2012-08-14,
+48836555,Trabajador 083,Operaciones,2023-05-13,
+49291372,Trabajador 084,Administración,2016-02-27,
+45541702,Trabajador 085,Contabilidad,2020-11-12,
+45408220,Trabajador 086,Contabilidad,2020-02-10,
+43486868,Trabajador 087,Captaciones,2013-06-11,
+40711534,Trabajador 088,Contabilidad,2016-10-18,
+43388967,Trabajador 089,Operaciones,2012-03-18,
+41004865,Trabajador 090,Créditos,2023-11-24,
+42604868,Trabajador 091,Sistemas,2012-09-27,
+45634326,Trabajador 092,Sistemas,2016-12-10,
+47112217,Trabajador 093,Cobranzas,2017-02-10,
+42942232,Trabajador 094,Contabilidad,2019-01-24,
+47279228,Trabajador 095,Cobranzas,2013-10-15,
+49675799,Trabajador 096,Operaciones,2013-09-06,
+\.
+
+CREATE TABLE public.usuarios (
+    usuario text NOT NULL,
+    documento character varying(8),
+    perfil text,
+    estado text,
+    ultimo_acceso date
+);
+
+COPY public.usuarios (usuario, documento, perfil, estado, ultimo_acceso) FROM stdin WITH (FORMAT csv);
+u054,45634326,CONSULTA,activo,2025-08-08
+u069,44436035,OPERADOR,activo,2025-11-01
+u084,49174477,ANALISTA,activo,2025-07-02
+u077,41094646,ADMIN,activo,2025-08-18
+u074,42604868,JEFE,activo,2025-09-12
+u021,41882562,CONSULTA,activo,2025-04-06
+proveedor_core_2,,ANALISTA,activo,2025-05-10
+u063,43760342,ANALISTA,activo,2025-06-07
+x004,48628425,CONSULTA,activo,2025-01-28
+u013,48885980,ADMIN,activo,2025-08-17
+u066,42942232,JEFE,activo,2025-08-17
+u024,41692161,ADMIN,activo,2025-09-22
+u037,48836555,ANALISTA,activo,2025-12-03
+u014,42950431,CONSULTA,activo,2025-11-12
+x001,44839015,ADMIN,activo,2025-04-21
+u053,49675799,ADMIN,activo,2025-10-08
+u030,42585701,ADMIN,activo,2025-07-21
+u089,46897246,OPERADOR,activo,2025-12-22
+u031,44758965,ANALISTA,activo,2025-11-25
+u028,49877080,CONSULTA,activo,2025-08-28
+u051,49015856,ADMIN,activo,2025-10-04
+u064,40260743,ADMIN,activo,2025-11-13
+u010,42486768,OPERADOR,activo,2025-08-02
+u029,43763536,JEFE,activo,2025-10-13
+u003,44839015,ADMIN,activo,2025-02-25
+u032,43747278,ADMIN,activo,2025-04-13
+u011,49254388,OPERADOR,activo,2025-08-20
+u065,47825136,ANALISTA,activo,2025-04-23
+u055,40471925,ADMIN,activo,2025-01-28
+u085,46861391,ANALISTA,activo,2025-08-02
+u006,41830323,ADMIN,activo,2025-06-22
+consulta01_2,,ANALISTA,activo,2025-08-02
+u026,46221864,OPERADOR,activo,2025-04-20
+x002,46121521,JEFE,activo,2025-04-25
+u070,47279228,CONSULTA,activo,2025-10-15
+temporal,,ADMIN,activo,2025-04-09
+u020,40566194,ADMIN,activo,2025-12-05
+x006,42585701,OPERADOR,activo,2025-04-08
+u050,41673013,ANALISTA,activo,2025-01-10
+u079,45541702,JEFE,activo,2025-01-19
+u046,41240719,OPERADOR,activo,2025-11-17
+u073,48032832,JEFE,activo,2025-08-05
+u057,46602126,JEFE,activo,2025-10-08
+interfaz_sbs_2,,CONSULTA,activo,2025-02-07
+temporal_3,,ANALISTA,activo,2025-12-06
+u067,45438530,OPERADOR,activo,2025-06-10
+u068,48124613,CONSULTA,activo,2025-05-08
+u049,45376823,ANALISTA,activo,2025-07-03
+x005,44436035,JEFE,activo,2025-09-14
+u090,49999752,ANALISTA,activo,2025-05-02
+u082,48835910,ADMIN,activo,2025-09-13
+u012,45114170,CONSULTA,activo,2025-09-06
+sistemas,,OPERADOR,activo,2025-08-07
+u044,49636140,ANALISTA,activo,2025-06-01
+u027,45302008,ADMIN,activo,2025-03-12
+soporte_3,,JEFE,activo,2025-03-27
+temporal_2,,CONSULTA,activo,2025-07-19
+u056,43388967,OPERADOR,activo,2025-01-12
+interfaz_sbs,,CONSULTA,activo,2025-06-03
+u043,49577287,ANALISTA,activo,2025-01-06
+auditoria_ext_2,,OPERADOR,activo,2025-03-15
+u038,40061843,OPERADOR,activo,2025-06-26
+u088,45408220,CONSULTA,activo,2025-09-28
+u025,46605578,CONSULTA,activo,2025-03-23
+u060,46603524,ANALISTA,activo,2025-11-20
+u052,47406679,OPERADOR,activo,2025-01-24
+u002,43606579,JEFE,activo,2025-09-04
+sistemas_3,,ANALISTA,activo,2025-07-17
+consulta01_3,,ADMIN,activo,2025-05-23
+u041,47023297,ADMIN,activo,2025-03-25
+u078,41497905,ANALISTA,activo,2025-11-28
+u086,47112217,JEFE,activo,2025-11-18
+u034,44810275,ADMIN,activo,2025-12-05
+backup_2,,CONSULTA,activo,2025-11-18
+u023,46121521,JEFE,activo,2025-07-20
+backup_3,,ADMIN,activo,2025-08-14
+u019,41196093,OPERADOR,activo,2025-12-03
+u017,48628425,ADMIN,activo,2025-02-08
+u015,46262812,CONSULTA,activo,2025-03-11
+backup,,ADMIN,activo,2025-09-12
+u072,41032767,ADMIN,activo,2025-06-26
+u008,43789213,ADMIN,activo,2025-01-11
+u018,45863362,JEFE,activo,2025-03-25
+u016,49291372,OPERADOR,activo,2025-10-27
+u075,44583788,CONSULTA,activo,2025-06-05
+u062,49969093,CONSULTA,activo,2025-08-16
+u076,43395132,ADMIN,activo,2025-12-11
+u035,44197613,CONSULTA,activo,2025-02-07
+u083,46755488,JEFE,activo,2025-08-21
+u004,41271370,JEFE,activo,2025-10-13
+auditoria_ext,,CONSULTA,activo,2025-05-09
+u009,40874814,ADMIN,activo,2025-06-25
+u087,42024209,ANALISTA,activo,2025-03-13
+u039,42171896,OPERADOR,activo,2025-03-05
+sistemas_2,,CONSULTA,activo,2025-01-03
+u033,41061077,ADMIN,activo,2025-04-14
+u022,44295995,ADMIN,activo,2025-07-19
+u036,43988016,ANALISTA,activo,2025-07-23
+u071,43352852,ANALISTA,activo,2025-04-19
+soporte,,ANALISTA,activo,2025-05-10
+proveedor_core,,CONSULTA,activo,2025-04-05
+u058,49080333,CONSULTA,activo,2025-06-09
+u040,46230716,OPERADOR,activo,2025-08-08
+consulta01,,OPERADOR,activo,2025-09-08
+u042,44462108,ANALISTA,activo,2025-03-25
+interfaz_sbs_3,,OPERADOR,activo,2025-12-20
+u048,46503563,OPERADOR,activo,2025-12-09
+u001,44080115,ANALISTA,activo,2025-05-22
+u081,40410989,ANALISTA,activo,2025-05-13
+u059,49981556,CONSULTA,activo,2025-08-16
+u045,45779316,ANALISTA,activo,2025-12-24
+u005,43999767,ANALISTA,activo,2025-10-06
+u080,41429483,OPERADOR,activo,2025-04-22
+u061,41004865,JEFE,activo,2025-07-17
+x003,43999767,CONSULTA,activo,2025-08-13
+u047,42770712,JEFE,activo,2025-09-18
+soporte_2,,OPERADOR,activo,2025-08-01
+u007,46108620,CONSULTA,activo,2025-02-03
+\.
+
+--
+-- PostgreSQL database dump complete
+--

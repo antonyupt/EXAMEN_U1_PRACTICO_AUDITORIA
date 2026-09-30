@@ -1,0 +1,26 @@
+     usuario      |  perfil  
+------------------+----------
+ backup           | ADMIN
+ backup_3         | ADMIN
+ consulta01_3     | ADMIN
+ temporal         | ADMIN
+ consulta01_2     | ANALISTA
+ proveedor_core_2 | ANALISTA
+ sistemas_3       | ANALISTA
+ soporte          | ANALISTA
+ temporal_3       | ANALISTA
+ auditoria_ext    | CONSULTA
+ backup_2         | CONSULTA
+ interfaz_sbs     | CONSULTA
+ interfaz_sbs_2   | CONSULTA
+ proveedor_core   | CONSULTA
+ sistemas_2       | CONSULTA
+ temporal_2       | CONSULTA
+ soporte_3        | JEFE
+ auditoria_ext_2  | OPERADOR
+ consulta01       | OPERADOR
+ interfaz_sbs_3   | OPERADOR
+ sistemas         | OPERADOR
+ soporte_2        | OPERADOR
+(22 rows)
+

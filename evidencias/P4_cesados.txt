@@ -1,0 +1,20 @@
+ usuario |     nombre     | fecha_cese 
+---------+----------------+------------
+ u059    | Trabajador 005 | 2015-12-18
+ x006    | Trabajador 002 | 2018-09-10
+ u030    | Trabajador 002 | 2018-09-10
+ x004    | Trabajador 008 | 2019-05-29
+ u017    | Trabajador 008 | 2019-05-29
+ u048    | Trabajador 014 | 2019-12-23
+ x003    | Trabajador 011 | 2022-12-13
+ u005    | Trabajador 011 | 2022-12-13
+ u003    | Trabajador 009 | 2023-06-20
+ x001    | Trabajador 009 | 2023-06-20
+ u072    | Trabajador 001 | 2024-02-12
+ u043    | Trabajador 004 | 2024-10-07
+ u069    | Trabajador 003 | 2024-12-09
+ x005    | Trabajador 003 | 2024-12-09
+ u023    | Trabajador 010 | 2025-06-25
+ x002    | Trabajador 010 | 2025-06-25
+(16 rows)
+

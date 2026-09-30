@@ -1,0 +1,20 @@
+# Servidor de base de datos del core financiero · COOPAC Santa Rosa
+name: coopac-core
+
+services:
+  bd:
+    image: postgres:16
+    container_name: sr_bd
+    environment:
+      POSTGRES_DB: core
+      POSTGRES_PASSWORD: coopac2023
+    command: postgres -c log_connections=off -c log_statement=none
+    ports:
+      - "55432:5432"
+    volumes:
+      - ./bd:/docker-entrypoint-initdb.d:ro
+      - ./datos:/datos:ro
+    healthcheck:
+      test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "postgres", "-d", "core"]
+      interval: 5s
+      retries: 20

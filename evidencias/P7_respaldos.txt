@@ -1,0 +1,10 @@
+core_2025-11-12.sql
+core_2025-11-13.sql
+core_2025-11-14.sql
+respaldo.log
+respaldo.sh*
+2025-12-27 02:00:02 ERROR pg_dump: could not write to output file: No space left on device
+2025-12-28 02:00:02 ERROR pg_dump: could not write to output file: No space left on device
+2025-12-29 02:00:02 ERROR pg_dump: could not write to output file: No space left on device
+2025-12-30 02:00:02 ERROR pg_dump: could not write to output file: No space left on device
+2025-12-31 02:00:02 ERROR pg_dump: could not write to output file: No space left on device
